@@ -1,0 +1,19 @@
+.btn {
+  /* dimensions style*/
+  border: 0;
+  padding: 5px;
+  box-sizing: border-box;
+  /* font style*/
+  font-size: 1.05em;
+  font-weight: 600;
+  /* handling overflow  style*/
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  /* cursor interaction */
+  cursor: pointer;
+}
+
+.btn:not(:disabled):hover {
+  transform: scale(1.02);
+}
