@@ -6,7 +6,6 @@ const Pill = ({ children, color = '#d8d8d8' }) => {
         <div
             style={{
                 width: "100%",
-                height: "100%",
                 background: color,
             }}
             className='pill'
