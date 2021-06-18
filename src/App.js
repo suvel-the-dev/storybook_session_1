@@ -2,7 +2,8 @@ import './App.css';
 import AddRecipeBtn from './components/AddRecipeBtn';
 import Recipe from './components/Recipe'
 import { AppProvider } from './context/AppContext'
-
+import BrandLogo from './components/BrandLogo'
+import logo from './asset/logo1.png'
 
 const recipeObj = {
   title: "Egg",
@@ -26,7 +27,7 @@ function App() {
       <AppProvider>
         <div class="app">
           <div class="app__header">
-            Logo
+            <BrandLogo />
           </div>
           <div class="app__body">
             <div className="addRecipe__container">
