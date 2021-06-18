@@ -1,0 +1,32 @@
+.add-recipe {
+  width: 561px;
+  height: 567px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.add-recipe__title {
+  align-self: center;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.add-recipe__form {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 21px;
+}
+
+.add-recipe__input {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0;
+}
+.add-recipe__action {
+  display: flex;
+  gap: 10px;
+  margin: 0 auto;
+  width: 482px;
+}

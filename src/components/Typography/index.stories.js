@@ -48,3 +48,10 @@ Paragraph.args = {
      sometimes on purpose (injected humour and the like).`,
     variant: 'paragraph',
 };
+
+export const Label = Template.bind({});
+Label.args = {
+    ...Default.args,
+    children: "Hello!",
+    variant: 'label',
+};

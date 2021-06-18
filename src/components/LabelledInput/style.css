@@ -1,5 +1,5 @@
-.add-recipe__input {
+.labeled-ip__container {
   display: flex;
   flex-direction: column;
-  margin: 10px 0;
+  gap: 15px;
 }

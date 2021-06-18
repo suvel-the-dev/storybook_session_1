@@ -1,11 +1,11 @@
 .btn {
   /* dimensions style*/
   border: 0;
-  padding: 5px;
+  padding: 5px 14px;
   box-sizing: border-box;
   /* font style*/
+  font-family: Poppins;
   font-size: 1.05em;
-  font-weight: 600;
   /* handling overflow  style*/
   text-overflow: ellipsis;
   overflow: hidden;
@@ -16,4 +16,8 @@
 
 .btn:not(:disabled):hover {
   transform: scale(1.02);
+}
+
+.btn:disabled {
+  filter: opacity(0.2);
 }

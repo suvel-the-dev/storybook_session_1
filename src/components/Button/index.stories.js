@@ -1,4 +1,5 @@
 import Button from './';
+import ThemedButton from './ThemedButton'
 
 export default {
     title: 'Components/Button',
@@ -20,20 +21,16 @@ Default.args = {
     borderRadius: 10,
 };
 
-export const PositiveAction = Template.bind({});
-PositiveAction.args = {
-    ...Default.args,
-    background: "#FFED00",
-    width: '150px',
-    height: '40px',
-    rounded: true,
-    borderRadius: 10,
-    children: '👼 Angle'
-};
+export const PrimaryButton = () => {
+    return <>
+        <ThemedButton variant='PRIMARY'>Primary Button</ThemedButton>
+    </>
+}
 
-export const NegativeAction = Template.bind({});
-NegativeAction.args = {
-    ...PositiveAction.args,
-    background: "#ED232A",
-    children: '😈 Devil'
-};
+export const SecondaryButton = () => {
+    return <ThemedButton variant='SECONDARY'>Secondary Button</ThemedButton>
+}
+
+export const TertiaryButton = () => {
+    return <ThemedButton variant='TERTIARY'>Tertiary Button</ThemedButton>
+}

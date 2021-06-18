@@ -35,3 +35,9 @@ RecipeCard.args = {
     1 Pinch Salt
     `
 };
+Default.parameters = {
+    design: {
+        type: 'figma',
+        url: 'https://www.figma.com/file/9AgfYxNiTtPaAwwCmDNuUd/Storybook-Session?node-id=59%3A1',
+    },
+}

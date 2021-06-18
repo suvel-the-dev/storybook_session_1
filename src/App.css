@@ -1,0 +1,54 @@
+:root {
+  --primary_color: #ffed00;
+  --secondary_color: #ed232a;
+  --tertiary_color: #f3f3f3;
+  --main-container-padding: 1rem 0 0 0;
+}
+
+.container {
+  background: var(--primary_color);
+  display: grid;
+  min-height: 100vh;
+  grid-template-columns: 0.4fr 2.2fr 0.4fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    ". app ."
+    ". app ."
+    ". app .";
+}
+
+.app {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 0.3fr 1.7fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "app__header app__header app__header"
+    "app__body app__body app__body"
+    "app__body app__body app__body";
+  grid-area: app;
+}
+
+.app__body {
+  grid-area: app__body;
+  display: flex;
+  flex-direction: column;
+  gap: 4em;
+}
+
+.app__header {
+  grid-area: app__header;
+}
+.addRecipe__container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.recipes__container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}

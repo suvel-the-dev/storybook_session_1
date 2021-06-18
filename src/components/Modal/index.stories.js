@@ -16,8 +16,7 @@ export const WelcomeModal = Template.bind({});
 WelcomeModal.args = {
     children: (
         <div style={{
-            width: '300px',
-            height: '200px',
+            padding: '5px',
             display: 'grid',
             placeContent: 'center'
         }}>

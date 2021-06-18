@@ -3,7 +3,7 @@ import './style.css'
 
 const Modal = ({
     children,
-    color = '#d8d8d8'
+    color
 }) => {
     return (
         <div

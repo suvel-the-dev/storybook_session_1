@@ -3,12 +3,14 @@ import './style.css'
 
 const Button = ({
     children,
-    disabled,
+    disabled = false,
     background = "#d8d8d8",
-    rounded,
+    color = '#000000',
+    rounded = true,
     borderRadius = 10,
     width = "auto",
     height = "auto",
+    fontWeight = '600',
     ...props }) => {
 
     //Style Attribute validation
@@ -21,9 +23,11 @@ const Button = ({
             disabled={disabled}
             style={{
                 background,
+                color,
                 borderRadius: borderRadiusValue,
                 width,
-                height
+                height,
+                fontWeight
             }}
             {...props}>
             {children}
