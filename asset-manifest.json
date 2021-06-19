@@ -1,29 +1,22 @@
 {
   "files": {
-    "0.fb756381.iframe.bundle.js": "./0.fb756381.iframe.bundle.js",
-    "main.css": "./static/css/main.1d64983a.chunk.css",
-    "main.js": "./main.55207bfe.iframe.bundle.js",
-    "main.css.map": "./static/css/main.1d64983a.chunk.css.map",
-    "runtime~main.js": "./runtime~main.f3ffd179.iframe.bundle.js",
-    "vendors~main.js": "./vendors~main.e6360bea.iframe.bundle.js",
-    "vendors~main.js.map": "./vendors~main.e6360bea.iframe.bundle.js.map",
-    "4.172bd3fc.iframe.bundle.js": "./4.172bd3fc.iframe.bundle.js",
-    "4.172bd3fc.iframe.bundle.js.map": "./4.172bd3fc.iframe.bundle.js.map",
-    "5.82d2a46b.iframe.bundle.js": "./5.82d2a46b.iframe.bundle.js",
-    "6.5df20e63.iframe.bundle.js": "./6.5df20e63.iframe.bundle.js",
-    "6.5df20e63.iframe.bundle.js.map": "./6.5df20e63.iframe.bundle.js.map",
-    "7.3ddfc1b7.iframe.bundle.js": "./7.3ddfc1b7.iframe.bundle.js",
-    "4.172bd3fc.iframe.bundle.js.LICENSE.txt": "./4.172bd3fc.iframe.bundle.js.LICENSE.txt",
-    "6.5df20e63.iframe.bundle.js.LICENSE.txt": "./6.5df20e63.iframe.bundle.js.LICENSE.txt",
-    "iframe.html": "./iframe.html",
-    "static/media/style.css": "./static/media/img1.cb988b75.png",
-    "static/media/logo1.e099bc7c.png": "./static/media/logo1.e099bc7c.png",
-    "vendors~main.e6360bea.iframe.bundle.js.LICENSE.txt": "./vendors~main.e6360bea.iframe.bundle.js.LICENSE.txt"
+    "main.css": "/storybook_session_1/static/css/main.9709d3e3.chunk.css",
+    "main.js": "/storybook_session_1/static/js/main.097b89eb.chunk.js",
+    "main.js.map": "/storybook_session_1/static/js/main.097b89eb.chunk.js.map",
+    "runtime-main.js": "/storybook_session_1/static/js/runtime-main.b2b0ac28.js",
+    "runtime-main.js.map": "/storybook_session_1/static/js/runtime-main.b2b0ac28.js.map",
+    "static/js/2.437f07d2.chunk.js": "/storybook_session_1/static/js/2.437f07d2.chunk.js",
+    "static/js/2.437f07d2.chunk.js.map": "/storybook_session_1/static/js/2.437f07d2.chunk.js.map",
+    "index.html": "/storybook_session_1/index.html",
+    "static/css/main.9709d3e3.chunk.css.map": "/storybook_session_1/static/css/main.9709d3e3.chunk.css.map",
+    "static/js/2.437f07d2.chunk.js.LICENSE.txt": "/storybook_session_1/static/js/2.437f07d2.chunk.js.LICENSE.txt",
+    "static/media/style.css": "/storybook_session_1/static/media/img1.cb988b75.png",
+    "static/media/logo1.e099bc7c.png": "/storybook_session_1/static/media/logo1.e099bc7c.png"
   },
   "entrypoints": [
-    "runtime~main.f3ffd179.iframe.bundle.js",
-    "vendors~main.e6360bea.iframe.bundle.js",
-    "static/css/main.1d64983a.chunk.css",
-    "main.55207bfe.iframe.bundle.js"
+    "static/js/runtime-main.b2b0ac28.js",
+    "static/js/2.437f07d2.chunk.js",
+    "static/css/main.9709d3e3.chunk.css",
+    "static/js/main.097b89eb.chunk.js"
   ]
 }
