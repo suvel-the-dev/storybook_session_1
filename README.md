@@ -1,4 +1,4 @@
-# Storybook Session #1 (React :atom_symbol: + Stroybook :closed_book:)
+# Storybook Session #1 (React :atom_symbol: + Storybook :closed_book:)
 
 This a test project (Maggie takeout_box: Recipe) which is created to use and get to know about the **Storybook** with **React**. 
 
